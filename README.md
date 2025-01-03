@@ -72,5 +72,5 @@ This project is a modern landing page designed with a focus on smooth animations
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/landing-page.git
+   git clone https://github.com/priyadharshan04/Landing_page.git
 
