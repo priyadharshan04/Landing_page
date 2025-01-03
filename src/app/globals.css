@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    
+    .btn{
+        @apply px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center  tracking-tight
+    }
+    .btn-primary{
+        @apply bg-black text-white
+    }
+    .bt-text{
+        @apply text-black bg-transparent
+    }
+    .logo-ticker-image{
+        @apply h-8 w-auto
+        
+    }
+    .tag{
+      @apply  text-sm inline-flex border mt-3 border-[#222]/10 px-3 py-1 rounded-lg tracking-tight
+    }
+    .section-title{
+        @apply md:text-7xl    flex justify-center text-5xl font-bold tracking-tight bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text 
+    }
+    .section-description{
+        @apply text-center text-[22px] mt-5 leading-[30px] tracking-tight text-[001e80]
+    }
+    .section-heading{
+        @apply max-w-[540px] mx-auto
+    }
+    .card{
+        @apply p-4 bg-white rounded-lg m-3 shadow-md;
+
+    }
+}
+@layer utilities {
+    /* Hide scrollbar for Chrome, Safari, and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    /* Hide scrollbar for IE, Edge, and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
